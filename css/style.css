@@ -37,6 +37,12 @@ header{
 	margin-top: 33px;
 	cursor: pointer;
 	text-decoration: none;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.header-button:hover{
+	box-shadow: none;
 }
 header small{
 	font-size: 12px;
@@ -136,6 +142,13 @@ footer{
 	padding: 12px 40px;
 	cursor: pointer;
 	text-decoration: none;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.footer-button:hover{
+	background-color: #fff;
+	color: #3a7dfd;
 } 
 @media (max-width: 1200px){
 	.header-pretitle{

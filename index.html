@@ -20,6 +20,7 @@
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css
 		">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -28,17 +29,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<img class="header-img" src="img/main-img.png" alt="Монитор">
+					<img class="header-img wow fadeInLeftBig" src="img/main-img.png" alt="Монитор">
 				</div>
 				<!-- /.col-7 -->
 				<div class="col-lg-5">
-					<p class="header-pretitle">Веб-разработчик</p>
-					<h1 class="header-title">Михаил Курамшин</h1>
-					<p class="header-subtitle">Верстка на HTML/CSS<br>
+					<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Михаил Курамшин</h1>
+					<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS<br>
 					Разработка сайтов под ключ</p>
 					<div class="header-button-block">
-						<a href="https://vk.com/mxdzqr" class="header-button">Связаться</a>
-						<small>*Это бесплатно</small>
+						<a href="https://vk.com/mxdzqr" class="header-button wow fadeInRightBig" data-wow-delay="0.4s">Связаться</a>
+						<small class="wow fadeInRightBig" data-wow-delay="0.5s">*Это бесплатно</small>
 					</div>
 				</div>
 				<!-- /.col-5 -->
@@ -50,12 +51,12 @@
 
 	<section class="portfolio">
 		<div class="container">
-			<div class="portfolio-block">
-				<h2 class="portfolio-title">Портфолио</h2>
-				<p class="portfolio-subtitle">Мои работы</p>
+			<div class="portfolio-block wow flipOutX">
+				<h2 class="portfolio-title wow rotateInUpLeft">Портфолио</h2>
+				<p class="portfolio-subtitle wow rotateInUpRight">Мои работы</p>
 				<div class="row">
 					<div class="col-md-6">
-						<div class="portfolio-col-1">
+						<div class="portfolio-col-1 wow fadeInUp">
 							<img src="img/logo-1.png" alt="">
 							<h3>Внутренний университет "Газпром нефти"</h3>
 							<p class="portfolio-text">У «Газпром нефти» есть внутренний Корпоративный университет для сотрудников. Это настоящий университет, где сотрудники проходят обучение у внутренних тренеров компании или у специально приглашенных лекторов и экспертов....</p>
@@ -63,7 +64,7 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="portfolio-col-2">
+						<div class="portfolio-col-2 wow fadeInUp">
 							<img src="img/logo-2.png" alt="">
 							<h3>Сайт платежной системы «Мир»</h3>
 							<p class="portfolio-text">Обновленная версия сайта знакомит посетителей с компаниями, уже принимающими карты к оплате, и приглашает всех остальных присоединиться к проекту...</p>
@@ -84,10 +85,10 @@
 				<div class="col-md-4">
 					<div class="social-block">
 						<p>Подпишись:</p>
-						<a href="https://facebook.com/"><img src="img/social/facebook-logo-button.png" alt="facebook"></a>
-						<a href="https://telegram.org/"><img src="img/social/telegram-symbol.png" alt="Telegram"></a>
-						<a href="https://vk.com/mxdzqr"><img src="img/social/vk-social-logotype.png" alt="VK"></a>
-						<a href="https://www.youtube.com/"><img src="img/social/youtube-symbol.png" alt="YouTube"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.1s" href="https://facebook.com/"><img src="img/social/facebook-logo-button.png" alt="facebook"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.2s" href="https://telegram.org/"><img src="img/social/telegram-symbol.png" alt="Telegram"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.3s" href="https://vk.com/mxdzqr"><img src="img/social/vk-social-logotype.png" alt="VK"></a>
+						<a class="wow bounceInDown" data-wow-delay="0.4s" href="https://www.youtube.com/"><img src="img/social/youtube-symbol.png" alt="YouTube"></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -100,5 +101,9 @@
 			<!-- /.row -->
 		</div>
 	</footer>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
